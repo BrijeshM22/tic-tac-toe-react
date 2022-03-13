@@ -1,0 +1,55 @@
+body {
+  background-color: #444;
+  color: white;
+  margin: 0px;
+  font-family: 32px "Century Gathic", Futura, sans-serif;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.board-row {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.square {
+  background-color: #444;
+  color: white;
+  border: 1px solid #999;
+  padding: 0;
+  font-size: 84px;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+}
+
+.title {
+  margin: 10px;
+  font-size: 44px;
+}
+
+.status {
+  margin: 20px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.reset-game-btn {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
